@@ -1,0 +1,291 @@
+# 注意！本 hosts 属个人需要所做，请勿到处传播，不然挂的快。
+# 个人制作，效果不是非常理想，但可以解决下载 Google Chrome 扩展、同步问题等。
+# 再次注意！请勿到处传播，不然挂的快。
+
+#Update Time 2014-12-14 21:39
+
+# 64.233.187.17 这个ip也是可以的，不过速度慢些
+
+#[Start]
+
+#WebStore&Extensions
+203.208.46.163 clients2.google.com
+203.208.46.163 chrome.google.com
+203.208.46.163 clients2.googleusercontent.com
+203.208.46.163 lh0.googleusercontent.com
+203.208.46.163 lh1.googleusercontent.com
+203.208.46.163 lh2.googleusercontent.com
+203.208.46.163 lh3.googleusercontent.com
+203.208.46.163 lh4.googleusercontent.com
+203.208.46.163 lh5.googleusercontent.com
+203.208.46.163 lh6.googleusercontent.com
+
+#Bookmarks
+203.208.46.163 clients4.google.com
+203.208.46.163 docs.google.com
+203.208.46.163 clients4.googleusercontent.com
+
+#Accounts
+203.208.46.163 accounts.google.com
+203.208.46.163 accounts.l.google.com
+203.208.46.163 accounts.google.com.hk
+
+#Page
+203.208.46.163 google.com
+203.208.46.163 www.google.com
+203.208.46.163 www.google.com.hk
+203.208.46.163 scholar.google.com
+203.208.46.163 scholar.google.com.hk
+203.208.46.163 books.google.com
+203.208.46.163 books.google.com.hk
+203.208.46.163 appengine.google.com
+203.208.46.163 inbox.google.com
+203.208.46.163 support.google.com
+203.208.46.163 desktop.google.com
+203.208.46.163 desktop.google.com.hk
+203.208.46.163 dl.google.com
+203.208.46.163 groups.google.com
+203.208.46.163 photos.google.com
+203.208.46.163 image.google.com
+203.208.46.163 image.google.com.hk
+203.208.46.163 images.google.com
+203.208.46.163 images.google.com.hk
+203.208.46.163 plus.google.com
+203.208.46.163 id.google.com
+203.208.46.163 id.google.com.hk
+203.208.46.163 labs.google.com
+203.208.46.163 translate.google.com
+203.208.46.163 translate.google.com.hk
+203.208.46.163 news.google.com
+203.208.46.163 news.google.com.hk
+203.208.46.163 adwords.google.com
+203.208.46.163 talk.google.com
+203.208.46.163 tools.google.com
+203.208.46.163 security.google.com
+203.208.46.163 history.google.com
+203.208.46.163 www.googleadsercices.com
+203.208.46.163 g.co
+203.208.46.163 goo.gl
+203.208.46.163 chrome.com
+203.208.46.163 www.blogger.com
+203.208.46.163 doubleclick.net
+203.208.46.163 1e100.net
+
+#Apis&CDN
+203.208.46.163 googleapis.com
+203.208.46.163 www.googleapis.com
+203.208.46.163 gstatic.com
+203.208.46.163 www.gstatic.com
+203.208.46.163 apis.google.com
+203.208.46.163 googleapis.l.google.com
+203.208.46.163 translate.googleapis.com
+203.208.46.163 ajax.googleapis.com
+203.208.46.163 google-analytics.com
+203.208.46.163 www.google-analytics.com
+203.208.46.163 ssl.google-analytics.com
+203.208.46.163 ssl.gstatic.com
+203.208.46.163 cache.pack.google.com
+203.208.46.163 webcache.googleusercontent.com
+203.208.46.163 fonts.googleapis.com
+203.208.46.163 fonts.gstatic.com
+203.208.46.163 csi.gstatic.com
+203.208.46.163 maps.googleapis.com
+203.208.46.163 browserchannel-spreadsheets.l.google.com
+203.208.46.163 browsersync.google.com
+203.208.46.163 browserchannel-docs.l.google.com
+203.208.46.163 browsersync.l.google.com
+203.208.46.163 checkout.google.com
+203.208.46.163 checkout.l.google.com
+203.208.46.163 cache.l.google.com
+203.208.46.163 desktop.l.google.com
+203.208.46.163 desktop2.google.com
+203.208.46.163 dl.l.google.com
+203.208.46.163 dl-ssl.google.com
+203.208.46.163 groups.l.google.com
+203.208.46.163 groups-beta.google.com
+203.208.46.163 id.l.google.com
+203.208.46.163 images.l.google.com
+203.208.46.163 large-uploads.l.google.com
+203.208.46.163 linkhelp.clients.google.com
+203.208.46.163 mt.google.com
+203.208.46.163 mt.l.google.com
+203.208.46.163 mt0.google.com
+203.208.46.163 mt1.google.com
+203.208.46.163 mt2.google.com
+203.208.46.163 mt3.google.com
+203.208.46.163 t0.gstatic.com
+203.208.46.163 t1.gstatic.com
+203.208.46.163 t2.gstatic.com
+203.208.46.163 t3.gstatic.com
+203.208.46.163 t4.gstatic.com
+203.208.46.163 t5.gstatic.com
+203.208.46.163 t6.gstatic.com
+203.208.46.163 t7.gstatic.com
+203.208.46.163 talkx.l.google.com
+203.208.46.163 talk.l.google.com
+203.208.46.163 talkgadget.google.com
+203.208.46.163 proxy.googlezip.net
+203.208.46.163 ext.google.com
+203.208.46.163 plus.googleapis.com
+203.208.46.163 www.googleusercontent.com
+203.208.46.163 translate.googleusercontent.com
+203.208.46.163 googlehosted.l.googleusercontent.com
+203.208.46.163 themes.googleusercontent.com
+203.208.46.163 oauth.googleusercontent.com
+203.208.46.163 feedback.googleusercontent.com
+203.208.46.163 images1-focus-opensocial.googleusercontent.com
+203.208.46.163 images2-focus-opensocial.googleusercontent.com
+203.208.46.163 code-opensocial.googleusercontent.com
+203.208.46.163 lh0.ggpht.com
+203.208.46.163 lh1.ggpht.com
+203.208.46.163 lh2.ggpht.com
+203.208.46.163 lh3.ggpht.com
+203.208.46.163 lh4.ggpht.com
+203.208.46.163 lh5.ggpht.com
+203.208.46.163 lh6.ggpht.com
+203.208.46.163 encrypted-tbn0.gstatic.com
+203.208.46.163 encrypted-tbn1.gstatic.com
+203.208.46.163 encrypted-tbn2.gstatic.com
+203.208.46.163 encrypted-tbn3.gstatic.com
+203.208.46.163 encrypted-tbn4.gstatic.com
+203.208.46.163 encrypted-tbn5.gstatic.com
+203.208.46.163 encrypted-tbn6.gstatic.com
+72.14.249.180 www.ingress.com
+72.14.249.180 ghs.google.com
+72.14.249.180 ghs.l.google.com
+72.14.249.180 ghs-svc-https-c1169.ghs-ssl.googlehosted.com
+
+#Developer
+203.208.46.163 developer.google.com
+203.208.46.163 developers.google.com
+203.208.46.163 code.google.com
+203.208.46.163 code.l.google.com
+203.208.46.163 googlecode.l.google.com
+
+#Maps
+64.15.119.151 map.google.com
+64.15.119.151 maps.google.com
+64.15.119.151 maps.google.com.hk
+64.15.119.151 local.google.com
+64.15.119.151 ditu.google.com
+64.15.119.151 earth.google.com
+64.15.119.151 maps.l.google.com
+64.15.119.151 maps-api-ssl.google.com
+64.15.119.151 mapsengine.google.com
+64.15.119.151 mars.google.com
+64.15.119.151 maps.gstatic.com
+64.15.119.151 mts.google.com
+64.15.119.151 mts.l.google.com
+64.15.119.151 mts0.google.com
+64.15.119.151 mts1.google.com
+64.15.119.151 mts2.google.com
+64.15.119.151 mts3.google.com
+64.15.119.151 places.google.com
+64.15.119.151 khm.google.com
+64.15.119.151 khm.l.google.com
+64.15.119.151 khms.google.com
+64.15.119.151 khms.l.google.com
+64.15.119.151 khm0.google.com
+64.15.119.151 khm1.google.com
+64.15.119.151 khm2.google.com
+64.15.119.151 khm3.google.com
+64.15.119.151 khms0.google.com
+64.15.119.151 khms1.google.com
+64.15.119.151 khms2.google.com
+64.15.119.151 khms3.google.com
+
+#Mail
+203.208.46.163 mail.google.com
+203.208.46.163 isolated.mail.google.com
+203.208.46.163 www.gmail.com
+203.208.46.163 gmail.com
+203.208.46.163 chatenabled.mail.google.com
+203.208.46.163 mail-attachment.googleusercontent.com
+203.208.46.163 isolated.mail.google.com
+203.208.46.163 filetransferenabled.mail.google.com
+
+#GoogleDrive
+203.208.46.163 drive.google.com
+203.208.46.163 googledrive.com
+203.208.46.163 storage.googleapis.com
+203.208.46.163 commondatastorage.googleapis.com
+203.208.46.163 docs0.google.com
+203.208.46.163 docs1.google.com
+203.208.46.163 docs2.google.com
+203.208.46.163 docs3.google.com
+203.208.46.163 docs4.google.com
+203.208.46.163 docs5.google.com
+203.208.46.163 docs6.google.com
+203.208.46.163 docs7.google.com
+203.208.46.163 docs8.google.com
+203.208.46.163 docs9.google.com
+203.208.46.163 0.docs.google.com
+203.208.46.163 0.drive.google.com
+203.208.46.163 1.docs.google.com
+203.208.46.163 1.drive.google.com
+203.208.46.163 2.docs.google.com
+203.208.46.163 2.drive.google.com
+203.208.46.163 3.docs.google.com
+203.208.46.163 3.drive.google.com
+203.208.46.163 4.docs.google.com
+203.208.46.163 4.drive.google.com
+203.208.46.163 5.docs.google.com
+203.208.46.163 5.drive.google.com
+203.208.46.163 6.docs.google.com
+203.208.46.163 6.drive.google.com
+203.208.46.163 7.docs.google.com
+203.208.46.163 7.drive.google.com
+203.208.46.163 8.docs.google.com
+203.208.46.163 8.drive.google.com
+203.208.46.163 9.docs.google.com
+203.208.46.163 9.drive.google.com
+203.208.46.163 10.docs.google.com
+203.208.46.163 10.drive.google.com
+203.208.46.163 11.docs.google.com
+203.208.46.163 11.drive.google.com
+203.208.46.163 12.docs.google.com
+203.208.46.163 12.drive.google.com
+203.208.46.163 13.docs.google.com
+203.208.46.163 13.drive.google.com
+203.208.46.163 14.docs.google.com
+203.208.46.163 14.drive.google.com
+203.208.46.163 15.docs.google.com
+203.208.46.163 15.drive.google.com
+203.208.46.163 16.docs.google.com
+203.208.46.163 16.drive.google.com
+
+#Clients
+203.208.46.163 clients.l.google.com
+203.208.46.163 clients1.google.com
+203.208.46.163 clients3.google.com
+203.208.46.163 clients5.google.com
+203.208.46.163 clients6.google.com
+203.208.46.163 2.client-channel.google.com
+203.208.46.163 4.client-channel.google.com
+203.208.46.163 5.client-channel.google.com
+203.208.46.163 6.client-channel.google.com
+203.208.46.163 7.client-channel.google.com
+
+#Upload
+203.208.46.163 uploads.clients.google.com
+203.208.46.163 uploads.client.google.com
+203.208.46.163 upload.clients.google.com
+203.208.46.163 upload.client.google.com
+203.208.46.163 upload.google.com
+203.208.46.163 upload.docs.google.com
+203.208.46.163 upload.photos.google.com
+203.208.46.163 upload.drive.google.com
+203.208.46.163 uploads.code.google.com
+203.208.46.163 uploads.clients.google.com
+203.208.46.163 large-uploads.l.google.com
+
+#Project
+203.208.46.163 cjxlist1.googlecode.com
+203.208.46.163 haoutil.googlecode.com
+203.208.46.163 earth-api-samples.googlecode.com
+203.208.46.163 chromium.googlecode.com
+203.208.46.163 www.googlesource.com
+203.208.46.163 www.chromium.org
+
+
+#[End]
