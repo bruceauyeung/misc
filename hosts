@@ -51,6 +51,7 @@
 64.233.187.17 images.google.com
 64.233.187.17 images.google.com.hk
 64.233.187.17 plus.google.com
+64.233.187.17 plus.url.google.com
 64.233.187.17 id.google.com
 64.233.187.17 id.google.com.hk
 64.233.187.17 labs.google.com
@@ -289,3 +290,6 @@
 
 
 #[End]
+
+#[Opera]
+185.26.182.119 help.opera.com
