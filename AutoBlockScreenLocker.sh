@@ -9,6 +9,7 @@ while true; do
         echo "libpepflashplayer processes detected. try to prevent screen locker from running."
         qdbus org.freedesktop.ScreenSaver /ScreenSaver SimulateUserActivity > /dev/null
     elif test ${#pids_of_firefox_plugin_container[@]} -ne 0
+    then
       echo "firefox plugin container process detected. try to prevent screen locker from running."
       qdbus org.freedesktop.ScreenSaver /ScreenSaver SimulateUserActivity > /dev/null
     fi
