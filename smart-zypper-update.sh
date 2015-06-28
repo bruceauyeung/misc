@@ -24,8 +24,7 @@ echo 'this script will call "zypper update" with additional features as follows:
 (4) automatically trust and import new repository signing keys.
 (5) automatically say "yes" to third party license confirmation prompt.
 '
-# index of repository. used to disable repository
-repo_idx=0
+
 # store all unreachable repositories. only for display purpose.
 unreachable_repos=()
 
@@ -37,16 +36,14 @@ OLD_IFS=$IFS
 
 # 由于 repo name 可能包含空格，所以必须要求 for in 只按换行符来识别数组元素
 IFS=$'\n' 
-for name_url in `zypper ls -u | awk -F'|' '{ if (NR > 2) print $3"|"$8}'`;do
+for idx_name_url in `zypper ls -u | awk -F'|' '{ if (NR > 2 && $4 ~ /[Yy]es/) print $1"|"$3"|"$8}'`;do
 
-    # 数值相加
-    repo_idx=$((repo_idx + 1))
     
-    # 按 | 来分割名称和URL
-    repo_name=`echo $name_url|awk -F'|' '{print $1}'`
-    repo_url=`echo $name_url|awk -F'|' '{print $2}'`
+    # 按 | 来分割 index, 名称和URL
+    repo_idx=$(trim "`echo $idx_name_url|awk -F'|' '{print $1}'`")
+    repo_name=`echo $idx_name_url|awk -F'|' '{print $2}'`
+    repo_url=$(trim "`echo $idx_name_url|awk -F'|' '{print $3}'`")
     
-    repo_url=$(trim "$repo_url")
     
     # bash 方式的 startsWith
     if [[ $repo_url == http* ]]; then
@@ -73,13 +70,19 @@ do
 done
 echo "temporarily disable these repositories and start to update."
 IFS=$OLD_IFS 
-zypper_output=`sudo zypper -n --gpg-auto-import-keys up $update_options_str 2>&1`
+zypper_origin_output=`sudo zypper -n --gpg-auto-import-keys up $update_options_str 2>&1`
+
+#  删除所有的回车符
+zypper_output=`echo ${zypper_origin_output} | tr -d '\n'`
 blocked_str_exists=`indexOf "$zypper_output" "System management is locked by the application with pid"`
+
 if [ "$blocked_str_exists" != "0" ]; then
     blocking_pid=`echo $zypper_output | awk '{print $10}'`
     echo "process $blocking_pid is blocking \"zypper update\", try to kill it."
     sudo kill -9 "$blocking_pid"
     sudo zypper -n --gpg-auto-import-keys up $update_options_str
+else
+    echo -e ${zypper_origin_output} 
 fi
 
 
